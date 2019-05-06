@@ -1,0 +1,26 @@
+{
+    "name": "wordpress",
+    "version": "1.0.0",
+    "description": "starter for wordpress",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "scottyzen.com",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.5",
+        "del": "^4.1.1",
+        "gulp": "^4.0.1",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-cached": "^1.1.1",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-exit": "0.0.2",
+        "gulp-postcss": "^8.0.0",
+        "gulp-purgecss": "^1.2.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sass-lint": "^1.4.0",
+        "sasslint": "0.0.10",
+        "tailwindcss": "^1.0.0-beta.8"
+    }
+}

@@ -11,4 +11,12 @@ Text Domain: Wordpress Starter
 
 @tailwind base;
 @tailwind components;
+
+// Core
+@import "core/variables";
+@import "core/mixins";
+@import "core/animations";
+@import "core/helpers";
+
+
 @tailwind utilities;

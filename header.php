@@ -9,7 +9,7 @@
 
 <body <?php body_class(); ?>>
     <div>
-        <header>
+        <header class="bg-teal-500">
             <div class="container flex flex-wrap justify-between">
 
                 <div>
@@ -23,7 +23,7 @@
                     <div class="w-full">
                         <div id="search" class="flex justify-end"><?php get_search_form(); ?></div>
                     </div>
-                    <div class="w-full bg-blue-500">
+                    <div class="w-full">
                         <ul class="flex flex-wrap justify-end">
                             <?php
                             $locations = get_nav_menu_locations();

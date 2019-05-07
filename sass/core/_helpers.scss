@@ -1,0 +1,13 @@
+.btn {
+    @apply .bg-green-500;
+}
+
+.btn:hover {
+    @apply bg-teal-500;
+}
+
+@screen md {
+    .btn {
+        @apply bg-red-500;
+    }
+}
